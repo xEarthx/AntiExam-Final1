@@ -1,0 +1,13 @@
+.classroom-card {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+  min-height: 180px;
+  color: white;
+  background-color: transparent; /* เอา blur ออก */
+}
+
+.classroom-card:hover {
+  transform: scale(1.015);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+}
